@@ -88,10 +88,10 @@ const SectionOne = () => {
     <section id="features" className="container  space-y-6  py-8 mx-auto md:py-12 lg:py-24">
       
   <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-    <h2 className="font-heading text-blue-500 text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+    <h2 className="font-heading  font-serif text-blue-500 text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
       Software Companies Features
     </h2>
-    <p className="max-w-[85%] text-white leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+    <p className="max-w-[85%] font-serif text-white leading-normal text-muted-foreground sm:text-lg sm:leading-7">
       Discover the amazing features offered by web Development companies to enhance
       your online presence.
     </p>

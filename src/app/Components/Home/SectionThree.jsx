@@ -82,10 +82,10 @@ const SectionThree = () => {
       <span className="text-gray-400 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
         Why choose us
       </span>
-      <h2 className="block w-full bg-gradient-to-b from-blue-500 to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
+      <h2 className="block font-serif w-full bg-gradient-to-b from-blue-500 to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
         Build a Website That Your Customers Love
       </h2>
-      <p className="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400">
+      <p className="mx-auto font-serif my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400">
         Our templates allow for maximum customization. No technical skills
         required – our intuitive design tools let you get the job done easily.
       </p>
@@ -106,8 +106,8 @@ const SectionThree = () => {
       >
        {e.icon}
       </div>
-      <h3 className="mt-6 text-gray-400">{e.title}</h3>
-      <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">
+      <h3 className="mt-6 font-serif text-gray-400">{e.title}</h3>
+      <p className="my-4 font-serif mb-0 font-normal leading-relaxed tracking-wide text-gray-400">
        {e.desc}
       </p>
     </div>

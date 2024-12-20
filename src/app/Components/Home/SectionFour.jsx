@@ -9,10 +9,10 @@ const SectionFour = () => {
   <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row">
     <div className="sm:text-center lg:text-left">
       <h1 className="text-4xl tracking-tight font-extrabold text-gray-800 sm:text-5xl md:text-6xl">
-        <span className="block xl:inline">IT Solutions & Services at </span> 
-        <span className="block text-indigo-600 xl:inline">your Fingertips</span>
+        <span className="block xl:inline font-serif">IT Solutions & Services at </span> 
+        <span className="block text-indigo-600 xl:inline font-serif">your Fingertips</span>
       </h1>
-      <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+      <p className="mt-3 font-serif text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
       I have been working with HNH Tech Solutions for several years now, and they have consistently exceeded my expectations. Their attention to detail and commitment to excellence are evident in everything they do. Whether its software development, IT support, or any other service they offer, HNH Tech Solutions is the best in the business.
       </p>
       {/* Button Section */}

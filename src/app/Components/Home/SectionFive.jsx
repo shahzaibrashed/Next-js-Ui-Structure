@@ -59,10 +59,10 @@ const SectionFive = () => {
         />
       </div>
       <div className="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12">
-        <h1 className="text-center text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">
+        <h1 className="text-center font-serif text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">
           Get Started now
         </h1>
-        <p className="text-center text-xl text-gray-600 dark:text-gray-300">
+        <p className="text-center  text-xl font-serif text-gray-600 dark:text-gray-300">
           Be part of millions people around the world using tailus in modern
           User Interfaces.
         </p>

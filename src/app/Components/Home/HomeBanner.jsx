@@ -22,13 +22,13 @@ const HomeBanner = () => {
           className="relative z-20 items-center w-10/12 grid-cols-2 mx-auto overflow-x-hidden lg:grid md:py-14 lg:py-24 xl:py-14 lg:mt-3 xl:mt-5"
         >
           <div className="pr-2 md:mt-20 mt-12 md:mb-14 py-14 md:py-0">
-            <p className="py-4 text-lg text-white 2xl:py-8 md:py-6 2xl:pr-5">
+            <p className="py-4 font-serif text-lg text-white 2xl:py-8 md:py-6 2xl:pr-5">
               WE ARE IT SERVICES AGENCY~👋
             </p>
-            <h1 className="text-3xl font-semibold text-blue-500 xl:text-5xl lg:text-3xl">
+            <h1 className="text-3xl font-semibold font-serif text-blue-500 xl:text-5xl lg:text-3xl">
               <span className="block w-full">Think big, web make it possible</span>
             </h1>
-            <p className="py-4 text-lg text-white 2xl:py-8 md:py-6 2xl:pr-5">
+            <p className="py-4 font-serif text-lg text-white 2xl:py-8 md:py-6 2xl:pr-5">
               IT Technology services built specifically for your business....
             </p>
             <div className="mt-4">

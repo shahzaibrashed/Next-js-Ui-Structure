@@ -9,11 +9,11 @@ const SectionTwo = () => {
     <div className="container m-3 md:m-10">
       <div className="bg-white rounded-lg shadow-lg p-5 md:p-20 mx-2">
         <div className="text-center">
-          <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+          <h2 className="text-4xl tracking-tight font-serif leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
           IT <span className="text-indigo-600">TECH </span>  SOLUTIONS
           </h2>
-          <h3 className="text-xl md:text-3xl mt-10">FOLLOW ON</h3>
-          <p className="text-md md:text-xl mt-10">
+          <h3 className="text-xl md:text-3xl mt-10 font-serif">FOLLOW ON</h3>
+          <p className="text-md md:text-xl mt-10 font-serif">
           Stay connected with HNH Solutions on social media! Follow us for the latest updates, expert insights, and exciting announcements. Join our community and be a part of the conversation. Find us on
           </p>
         </div>
