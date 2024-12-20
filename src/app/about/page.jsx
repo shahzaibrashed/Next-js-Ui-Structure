@@ -7,7 +7,7 @@ import SectionTwo from '../Components/About/SectionTwo'
 import SectionThree from '../Components/About/SectionThree'
 import { ScaleLoader } from "react-spinners";
 
-export default function page() {
+export default function Page() {
   const [isAtTop, setIsAtTop] = useState(true);
 
   useEffect(() => {

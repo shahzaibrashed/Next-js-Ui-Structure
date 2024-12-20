@@ -9,7 +9,7 @@ import SectionThree from '../Components/Blog/SectionThree'
 import BlogBanner from '../Components/Blog/BlogBanner'
 import { ScaleLoader } from "react-spinners";
 
-export default function page() {
+export default function Page() {
 
   const [isAtTop, setIsAtTop] = useState(true);
 

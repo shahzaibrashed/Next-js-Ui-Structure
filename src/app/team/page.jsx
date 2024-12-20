@@ -8,7 +8,7 @@ import { Suspense, useEffect, useState } from "react";
 import { ScaleLoader } from 'react-spinners';
 
 
-export default function page() {
+export default function Page() {
 
   const [isAtTop, setIsAtTop] = useState(true);
 
