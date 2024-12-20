@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 
 
 const Navbar = () => {
@@ -23,9 +24,17 @@ const Navbar = () => {
     >
       <div className="container flex flex-wrap items-center justify-between px-3 md:px-5 mx-auto">
         <div  className=" h-[63px] items-center w-[150px]">
-          <Link href="/">
-           <img src="./mm-removebg-preview.png"  loading="lazy" height="100%" width="100%" className="object-cover object-center h-full w-full" alt="" />
-          </Link>
+        <Link href="/">
+  <Image
+    src="/mm-removebg-preview.png"
+    alt="Descriptive alt text"
+    width={500}
+    height={500}
+    className="object-cover object-center"
+    loading="lazy"
+  />
+</Link>
+
         </div>
         <div className="flex items-center lg:order-2">
           <Link

@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -16,6 +17,7 @@ const Footer = () => {
     <div className="sm:col-span-2">
       <Link href="#" className="inline-flex items-center">
         <img
+          loading='lazy'
           src="https://mcqmate.com/public/images/logos/60x60.png"
           alt="logo"
           className="h-8 w-8"
@@ -49,29 +51,27 @@ const Footer = () => {
         COMPANY IS ALSO AVAILABLE ON
       </p>
       <div className="flex items-center gap-1 px-2">
-        <Link href="/" className="w-full min-w-xl">
-          <img
-            loading='lazy'
-            src="https://mcqmate.com/public/images/icons/playstore.svg"
-            alt="Playstore Button"
-            className="h-full w-full"
-            height="'100%"
-            width="100%"
-          />
-        </Link>
-        <Link
-          className="w-full min-w-xl"
-          href="/"
-        >
-          <img
-            loading='lazy'
-            src="https://mcqmate.com/public/images/icons/youtube.svg"
-            alt="Youtube Button"
-            className="h-full w-full"
-            height="'100%"
-            width="100%"
-          />
-        </Link>
+      <Link href="/" className="w-full min-w-xl">
+  <Image
+    loading="lazy"
+    src="https://mcqmate.com/public/images/icons/playstore.svg"
+    alt="Playstore Button"
+    className="h-full w-full"
+    height={100}
+    width={100}
+  />
+</Link>
+<Link className="w-full min-w-xl" href="/">
+  <Image
+    loading="lazy"
+    src="https://mcqmate.com/public/images/icons/youtube.svg"
+    alt="Youtube Button"
+    className="h-full w-full"
+    height={100}
+    width={100}
+  />
+</Link>
+
         
       </div>
       <p className="text-base font-bold tracking-wide text-white">

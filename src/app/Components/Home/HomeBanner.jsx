@@ -13,21 +13,19 @@ const HomeBanner = () => {
             type="video/mp4"
             autoPlay
             muted
-            loop 
+            loop
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
         </div>
         <div
           className="relative z-20 items-center w-10/12 grid-cols-2 mx-auto overflow-x-hidden lg:grid md:py-14 lg:py-24 xl:py-14 lg:mt-3 xl:mt-5"
-          data-aos="fade-right"
-          data-aos-duration={800}
         >
           <div className="pr-2 md:mt-20 mt-12 md:mb-14 py-14 md:py-0">
             <p className="py-4 text-lg text-white 2xl:py-8 md:py-6 2xl:pr-5">
               WE ARE IT SERVICES AGENCY~👋
             </p>
             <h1 className="text-3xl font-semibold text-blue-900 xl:text-5xl lg:text-3xl">
-              <span className="block w-full">Think big web make it possible</span>
+              <span className="block w-full">Think big, web make it possible</span>
             </h1>
             <p className="py-4 text-lg text-white 2xl:py-8 md:py-6 2xl:pr-5">
               IT Technology services built specifically for your business....
@@ -42,16 +40,17 @@ const HomeBanner = () => {
             </div>
           </div>
           <div className="pb-5 md:mt-20 overflow-hidden md:p-10 lg:p-0 sm:pb-0">
-            <img 
-              loading='lazy'
+            <img
+              loading="lazy"
               id="heroImg1"
-              className="transition-all duration-300 ease-in-out lg:w-full sm:mx-auto sm:w-4/6 sm:pb-12 lg:pb-0"
+              className=" lg:w-full sm:mx-auto sm:w-4/6 sm:pb-12 lg:pb-0"
               src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/hero-img.png"
               alt="Awesome hero page image"
-              width={500}
-              height={488}
+              width="500"
+              height="488"
             />
           </div>
+
         </div>
       </div>
     </>
