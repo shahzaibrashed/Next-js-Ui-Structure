@@ -1,15 +1,13 @@
 "use client";
 import { Suspense, useEffect, useState } from "react";
-import Layout from "./Components/Layout/Layout";
-import HomeBanner from "./Components/Home/HomeBanner";
-import SectionOne from "./Components/Home/SectionOne";
-import SectionTwo from "./Components/Home/SectionTwo";
-import SectionThree from "./Components/Home/SectionThree";
-import SectionFour from "./Components/Home/SectionFour";
-import SectionFive from "./Components/Home/SectionFive";
+import React from 'react'
+import Layout from '../Components/Layout/Layout'
+import SectionOne from '../Components/About/SectionOne'
+import SectionTwo from '../Components/About/SectionTwo'
+import SectionThree from '../Components/About/SectionThree'
 import { ScaleLoader } from "react-spinners";
 
-export default function Home() {
+export default function page() {
   const [isAtTop, setIsAtTop] = useState(true);
 
   useEffect(() => {
@@ -40,15 +38,12 @@ export default function Home() {
           </div>
         }
       >
-        <Layout>
-          <HomeBanner />
-          <SectionFour />
-          <SectionOne />
-          <SectionTwo />
-          <SectionThree />
-          <SectionFive />
-        </Layout>
-      </Suspense>
+    <Layout>
+   <SectionOne/>
+   <SectionTwo/>
+   <SectionThree/>
+    </Layout>
+    </Suspense>
       <button
         onClick={handleClick}
         className="text-[#F0F0F0] bg-blue-700 p-2 fixed z-10 bottom-7 right-3 w-10 h-10 rounded-full flex items-center justify-center"
@@ -73,6 +68,6 @@ export default function Home() {
           />
         </svg>
       </button>
-    </>
-  );
+  </>
+  )
 }
