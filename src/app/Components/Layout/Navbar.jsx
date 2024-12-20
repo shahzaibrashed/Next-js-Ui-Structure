@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="container flex flex-wrap items-center justify-between px-3 md:px-5 mx-auto">
         <div  className=" h-[63px] items-center w-[150px]">
           <Link href="/">
-           <img src="./mm-removebg-preview.png" height="100%" width="100%" className="object-cover object-center h-full w-full" alt="" />
+           <img src="./mm-removebg-preview.png"  loading="lazy" height="100%" width="100%" className="object-cover object-center h-full w-full" alt="" />
           </Link>
         </div>
         <div className="flex items-center lg:order-2">

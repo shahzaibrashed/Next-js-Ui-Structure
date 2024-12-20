@@ -51,9 +51,12 @@ const Footer = () => {
       <div className="flex items-center gap-1 px-2">
         <Link href="/" className="w-full min-w-xl">
           <img
+            loading='lazy'
             src="https://mcqmate.com/public/images/icons/playstore.svg"
             alt="Playstore Button"
-            className="h-10"
+            className="h-full w-full"
+            height="'100%"
+            width="100%"
           />
         </Link>
         <Link
@@ -61,9 +64,12 @@ const Footer = () => {
           href="/"
         >
           <img
+            loading='lazy'
             src="https://mcqmate.com/public/images/icons/youtube.svg"
             alt="Youtube Button"
-            className="h-28"
+            className="h-full w-full"
+            height="'100%"
+            width="100%"
           />
         </Link>
         

@@ -22,7 +22,7 @@ const HomeBanner = () => {
           data-aos="fade-right"
           data-aos-duration={800}
         >
-          <div className="pr-2 md:mt-10 mt-12 md:mb-14 py-14 md:py-0">
+          <div className="pr-2 md:mt-20 mt-12 md:mb-14 py-14 md:py-0">
             <p className="py-4 text-lg text-white 2xl:py-8 md:py-6 2xl:pr-5">
               WE ARE IT SERVICES AGENCY~👋
             </p>
@@ -41,8 +41,9 @@ const HomeBanner = () => {
               </Link>
             </div>
           </div>
-          <div className="pb-5 md:mt-10 overflow-hidden md:p-10 lg:p-0 sm:pb-0">
-            <img
+          <div className="pb-5 md:mt-20 overflow-hidden md:p-10 lg:p-0 sm:pb-0">
+            <img 
+              loading='lazy'
               id="heroImg1"
               className="transition-all duration-300 ease-in-out lg:w-full sm:mx-auto sm:w-4/6 sm:pb-12 lg:pb-0"
               src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/hero-img.png"
@@ -56,5 +57,4 @@ const HomeBanner = () => {
     </>
   );
 };
-
 export default HomeBanner;
