@@ -1,13 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
-import React from 'react';
+import React, { lazy } from 'react';
 
 const HomeBanner = () => {
   return (
     <>
-      <div className="relative h-screen">
+      <div className="relative">
         <div className="absolute inset-0 z-0 overflow-hidden">
           <video
+            onLoad={lazy}
             className="absolute top-0 left-0 w-full h-full object-cover"
             src="https://videos.pexels.com/video-files/29848604/12817767_2560_1440_30fps.mp4"
             type="video/mp4"
@@ -24,7 +25,7 @@ const HomeBanner = () => {
             <p className="py-4 text-lg text-white 2xl:py-8 md:py-6 2xl:pr-5">
               WE ARE IT SERVICES AGENCY~👋
             </p>
-            <h1 className="text-3xl font-semibold text-blue-900 xl:text-5xl lg:text-3xl">
+            <h1 className="text-3xl font-semibold text-blue-500 xl:text-5xl lg:text-3xl">
               <span className="block w-full">Think big, web make it possible</span>
             </h1>
             <p className="py-4 text-lg text-white 2xl:py-8 md:py-6 2xl:pr-5">
@@ -50,7 +51,6 @@ const HomeBanner = () => {
               height="488"
             />
           </div>
-
         </div>
       </div>
     </>

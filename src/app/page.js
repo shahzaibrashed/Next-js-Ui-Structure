@@ -51,7 +51,7 @@ export default function Home() {
       </Suspense>
       <button
         onClick={handleClick}
-        className="text-[#F0F0F0] bg-blue-700 p-2 fixed z-10 bottom-7 right-3 w-10 h-10 rounded-full flex items-center justify-center"
+        className="text-[#F0F0F0] bg-blue-500 p-2 fixed z-10 bottom-8 right-3 w-10 h-10 rounded-full flex items-center justify-center"
         aria-label={isAtTop ? "Scroll Down" : "Scroll to Top"}
       >
         <svg

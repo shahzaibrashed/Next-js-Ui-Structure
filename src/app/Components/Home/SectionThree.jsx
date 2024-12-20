@@ -82,7 +82,7 @@ const SectionThree = () => {
       <span className="text-gray-400 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
         Why choose us
       </span>
-      <h2 className="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
+      <h2 className="block w-full bg-gradient-to-b from-blue-500 to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
         Build a Website That Your Customers Love
       </h2>
       <p className="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400">

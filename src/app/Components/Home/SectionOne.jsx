@@ -88,10 +88,10 @@ const SectionOne = () => {
     <section id="features" className="container  space-y-6  py-8 mx-auto md:py-12 lg:py-24">
       
   <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-    <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+    <h2 className="font-heading text-blue-500 text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
       Software Companies Features
     </h2>
-    <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+    <p className="max-w-[85%] text-white leading-normal text-muted-foreground sm:text-lg sm:leading-7">
       Discover the amazing features offered by web Development companies to enhance
       your online presence.
     </p>
@@ -102,11 +102,11 @@ const SectionOne = () => {
     cards.map((e,i)=>{
       return(
         <div key={i} className="relative m-2 overflow-hidden rounded-lg border bg-background p-2">
-        <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+        <div className="flex text-blue-500 h-[180px] flex-col justify-between rounded-md p-6">
          {e.icon}
           <div className="space-y-2">
-            <h3 className="font-bold">{e.title}</h3>
-            <p className="text-sm text-muted-foreground">
+            <h3 className="font-bold text-white">{e.title}</h3>
+            <p className="text-sm text-white text-muted-foreground">
              {e.desc}
             </p>
           </div>

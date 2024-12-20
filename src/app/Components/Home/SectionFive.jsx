@@ -21,7 +21,7 @@ const SectionFive = () => {
           loading="lazy"
           width={400}
           height={400}
-          src="https://randomuser.me/api/portraits/women/12.jpg"
+          src="https://randomuser.me/api/portraits/women/32.jpg"
           alt="member photo"
           className="h-8 w-8 rounded-full object-cover"
         />
@@ -45,7 +45,7 @@ const SectionFive = () => {
           loading="lazy"
           width={200}
           height={200}
-          src="https://randomuser.me/api/portraits/women/4.jpg"
+          src="https://randomuser.me/api/portraits/women/76.jpg"
           alt="member photo"
           className="relative h-12 w-12 rounded-full object-cover"
         />
@@ -53,7 +53,7 @@ const SectionFive = () => {
           loading="lazy"
           width={200}
           height={200}
-          src="https://randomuser.me/api/portraits/women/34.jpg"
+          src="https://randomuser.me/api/portraits/women/67.jpg"
           alt="member photo"
           className="h-8 w-8 rounded-full object-cover"
         />
